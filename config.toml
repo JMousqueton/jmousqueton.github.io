@@ -19,7 +19,7 @@ theme = "hugo-devresume-theme"
     [params.profile]
         enable = true
         name = "Julien Mousqueton"
-        tagline = "Chief Technologist Officer"
+        tagline = "Chief Technology Officer"
         avatar = "avatar.png"
 
 
