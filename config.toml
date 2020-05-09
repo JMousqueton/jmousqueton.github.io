@@ -1,0 +1,249 @@
+
+
+baseURL = "https://jmousqueton.github.io/"
+languageCode = "en"
+title = "CV Julien Mousqueton"
+theme = "hugo-devresume-theme"
+#googleAnalytics = "UA-XXXXXXX-Y"
+
+
+[params]
+    author = "Julien Mousqueton"
+    description = "Resume - Julien Mousqueton - Chief Technology Officer"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+    [params.profile]
+        enable = true
+        name = "Julien Mousqueton"
+        tagline = "Chief Technologist Officer"
+        avatar = "avatar.png"
+
+
+    [params.contact]
+        enable = true
+        location = "Ile-de-France"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:+33633556428"
+        text = "06 33 55 64 28"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:julien@mousqueton.me"
+        text = "julien@mousqueton.me"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://www.julienmousqueton.fr"
+        text = "www.julienmousqueton.fr"
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Cloud Architecture"
+        [[params.skills.list.items]]
+        details = "Virtualization"
+        [[params.skills.list.items]]
+        details = "Storage"
+        [[params.skills.list.items]]
+        details = "Network"
+        [[params.skills.list.items]]
+        details = "Security"
+        [[params.skills.list.items]]
+        details = "Automation"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "DUT Informatique"
+        university = "Technology Institute Leonard de Vinci, Reims, France"
+        dates = "1996 - 1998"
+        [[params.education.list]]
+        degree = "BSc in Computer Science"
+        university = "Teesside University, Middlesbrough, UK"
+        dates = "1998 - 1999"
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "VMware vExpert"
+        body = "NSX & Cloud"
+        date = "2007-2020"
+        [[params.awards.list]]
+        name = "Cisco Champion"
+        body = "Datacenter"
+        date = "2010-2020"
+	 [[params.awards.list]]
+        name = "Veeam Vanguard"
+        body = ""
+        date = "2019-2020"
+	 [[params.awards.list]]
+        name = "Nutanix Champion"
+        body = ""
+        date = "2019"
+ [[params.awards.list]]
+        name = "HPE Ambassador"
+        body = "Datacenter"
+        date = "2017-2020"
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "French"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Fluent"
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Rugby"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+    [params.summary]
+        enable = true
+        text = "As a Chief Technologist in the Solutions Development team at Computacenter France, I’m responsible for the strategy, sales enablement and technical proposition development for Hybrid IT.I'm driving an integrated strategy and engagement with our customers and partners across our service portfolio."
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Chief Technologist Hybrid IT"
+        dates = "2018 - Present"
+        company = "Computacenter"
+        details = "As Chief Technologist for Hybrid IT, I'm a member of the Datacenter & Cloud Leadership team in France and I'm driven to ensure Computacenter's continued growth and relevance in the market via offering compelling propositions and services to the market. I'm specifically responsible for the development and maintenance of our our strategy ownership of our proposition stack within the Hybrid IT portfolio. I lead a team of Solution Leaders and collectively we are helping to drive our reputation in the market and assist our customers in very complex Digital Transformation programmes. I'm the recognised thought leader for Computacenter in the topic of Hybrid Cloud and as such a large amount of time is spent working with our customer community, the market and analysts in evangelising Computacenter's capabilities, our approaches and perspectives on the topic. I'm heavily involved in a number of key customer campaigns - both in establishing strategy but also specifically in driving the scope and direction for transformational change to support and underpin the business imperatives."
+        [[params.experience.list.items]]
+        details = "Definition of Technology offers."
+        [[params.experience.list.items]]
+        details = "Technology Watch."
+        [[params.experience.list.items]]
+        details = "Technical Enablement."
+        [[params.experience.list.items]]
+        details = "Strategy and Design of Responses."
+
+        [[params.experience.list]]
+        title = "Practice Leader Datacenter & Cloud"
+        dates = "2016 - 2018"
+        company = "Computacenter"
+        details = "I work within the Datacenter & Cloud business in France and I'm responsible for technical strategy and direction, new proposition development and Sales enablement. I directly support our Solutions sales team and our internal technical teams to develop compelling service offerings to support our clients strategic objectives and differentiate Computacenter in the marketplace."
+        [[params.experience.list.items]]
+        details = "Develop solutions for the Datacenter and Cloud Line of Business."
+        [[params.experience.list.items]]
+        details = "Speaker for IT event."
+        [[params.experience.list.items]]
+        details ="Partners Relationship"
+
+
+        [[params.experience.list]]
+        title = "Solution Architect"
+        dates = "2015 - 2016"
+        company = "Computacenter"
+        details = "As a Datacenter Solution Owner, I'm leading Datacenter focussed technology transformation. I'm responsible for all aspects of Computacenter's technical solution, including technical delivery, quality and alignment to defined requirements. I Lead the technical team of ~15 consultants delivering a complex cross technology programme including centered on VMware portfolio."
+        [[params.experience.list.items]]
+        details = "Technical lead on VMware Solution."
+        [[params.experience.list.items]]
+        details = "Technocal lead on Cloud transformation project."
+
+        [[params.experience.list]]
+        title = "Head of Architects and Engineers"
+        dates = "2012 - 2015"
+        company = "Groupe AGRICA"
+        details = "I'm in charged of both Architects team and Engineers team. Architects Teams is in charge of all new project (Technical or business) and the Engineers team is in charge of the deployement and the MCO."
+        [[params.experience.list.items]]
+        details = "Technical lead."
+        [[params.experience.list.items]]
+        details = "Team management."
+        [[params.experience.list.items]]
+        details = "Technology watch."
+        [[params.experience.list.items]]
+        details = "Technical correspondant for the CISO"
+		
+        [[params.experience.list]]
+        title = "Solution Architect"
+        dates = "2007 - 2012"
+        company = "Groupe AGRICA"
+        details = "I'm in charge of new technical projects like : virtualization project, define a new DRP, transform the IT from a legacy schema to a As a Service model." 
+	    [[params.experience.list.items]]
+        details = "Define and build the technical infrastructure : LAN, SAN and virtualization."
+        [[params.experience.list.items]]
+        details = "Implement ITIL process : change and configuration."
+       
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Speaker"
+[[params.information.list.items]]
+        details = "2019 · IDC, Paris"
+        [[params.information.list.items]]
+        details = "2018 · Gartner Symposium, Barelona"
+[[params.information.list.items]]
+        details = "2017 · Microsoft Iginte, Paris"
+[[params.information.list.items]]
+        details = "2010 ·Cisco Live, Barcelona"
+        [[params.information.list]]
+        title = "Community"
+		[[params.information.list.items]]
+		        details = "VMUG France former leader"
+				[[params.information.list.items]]
+				        details = "Active blogger"
+				
+		
+
+   
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Rugby, Photography, Travelling"
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/JMousqueton"
+        title = "JMousqueton"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/julien.mousqueton"
+        title = "Julien Mousqueton"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/JMousqueton"
+        title = "@JMousqueton"
