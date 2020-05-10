@@ -176,11 +176,11 @@ theme = "hugo-devresume-theme"
         title = "Solution Architect"
         dates = "2015 - 2016"
         company = "Computacenter"
-        details = "As a Datacenter Solution Owner, I'm leading Datacenter focussed technology transformation. I'm responsible for all aspects of Computacenter's technical solution, including technical delivery, quality and alignment to defined requirements. I Lead the technical team of ~15 consultants delivering a complex cross technology programme including centered on VMware portfolio."
+        details = "As a Datacenter Solution Owner, I'm leading Datacenter focussed technology transformation. I'm responsible for all aspects of Computacenter's technical solution, including technical delivery, quality and alignment to defined requirements. I lead the technical team of ~15 consultants delivering a complex cross technology programme including centered on VMware portfolio."
         [[params.experience.list.items]]
         details = "Technical lead on VMware Solution."
         [[params.experience.list.items]]
-        details = "Technocal lead on Cloud transformation project."
+        details = "Technical lead on Cloud transformation project."
 
         [[params.experience.list]]
         title = "Head of Architects and Engineers"
