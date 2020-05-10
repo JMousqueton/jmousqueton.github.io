@@ -76,13 +76,17 @@ theme = "hugo-devresume-theme"
         enable = true
 
         [[params.education.list]]
+        degree = "BSc in Computer Science"
+        university = "Teesside University, Middlesbrough, UK"
+        dates = "1998 - 1999"
+		[[params.education.list]]
         degree = "DUT Informatique"
         university = "Technology Institute Leonard de Vinci, Reims, France"
         dates = "1996 - 1998"
         [[params.education.list]]
-        degree = "BSc in Computer Science"
-        university = "Teesside University, Middlesbrough, UK"
-        dates = "1998 - 1999"
+        degree = "bachelor's degree in Mathematics"
+        university = "Lycée Clemeancau, Reims"
+        dates = "1996"
 
 
     [params.awards]
@@ -201,6 +205,36 @@ theme = "hugo-devresume-theme"
         details = "Define and build the technical infrastructure : LAN, SAN and virtualization."
         [[params.experience.list.items]]
         details = "Implement ITIL process : change and configuration."
+		
+		
+        [[params.experience.list]]
+        title = "Datacenter Architect"
+        dates = "2002 - 2007"
+        company = "Natexis Altaïr"
+        details = "I'm in charge of new technical projects like : virtualization project, secure transferts." 
+	    [[params.experience.list.items]]
+        details = "Answering RFP"
+        [[params.experience.list.items]]
+        details = "Design Solution."
+        [[params.experience.list.items]]
+        details = "Security."
+        [[params.experience.list.items]]
+        details = "Trainer."
+		
+        [[params.experience.list]]
+        title = "Security Architect"
+        dates = "2001 - 2002"
+        company = "Caisse Primaire d'Assurance Maladie"
+        details = "I'm in charge to define the Security Politic and to deploy solutions to monitor security " 
+	    [[params.experience.list.items]]
+        details = "Logical Security"
+        [[params.experience.list.items]]
+        details = "URL Filtering."
+        [[params.experience.list.items]]
+        details = "Backup."
+        [[params.experience.list.items]]
+        details = "Pentest."
+		
        
 
     [params.information]
