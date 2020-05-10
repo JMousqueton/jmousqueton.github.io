@@ -140,7 +140,7 @@ theme = "hugo-devresume-theme"
 
     [params.summary]
         enable = true
-        text = "As a Chief Technologist in the Solutions Development team at Computacenter France, I’m responsible for the strategy, sales enablement and technical proposition development for Hybrid IT.I'm driving an integrated strategy and engagement with our customers and partners across our service portfolio."
+        text = "As a Chief Technologist in the Solutions Development team at Computacenter France, I’m responsible for the strategy, sales enablement and technical proposition development for Hybrid IT. I'm driving an integrated strategy and engagement with our customers and partners across our service portfolio."
 
     [params.experience]
         enable = true
