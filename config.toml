@@ -84,7 +84,7 @@ theme = "hugo-devresume-theme"
         university = "Technology Institute Leonard de Vinci, Reims, France"
         dates = "1996 - 1998"
         [[params.education.list]]
-        degree = "bachelor's degree in Mathematics"
+        degree = "Bachelor's degree in Mathematics"
         university = "Lycée Clemeancau, Reims"
         dates = "1996"
 
@@ -213,7 +213,7 @@ theme = "hugo-devresume-theme"
         company = "Natexis Altaïr"
         details = "I'm in charge of new technical projects like : virtualization project, secure transferts." 
 	    [[params.experience.list.items]]
-        details = "Answering RFP"
+        details = "Answering RFP."
         [[params.experience.list.items]]
         details = "Design Solution."
         [[params.experience.list.items]]
