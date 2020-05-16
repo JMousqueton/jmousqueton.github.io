@@ -2,7 +2,20 @@ baseURL = "https://jmousqueton.github.io/"
 languageCode = "en"
 title = "CV Julien Mousqueton"
 theme = "resume"
-#googleAnalytics = "UA-XXXXXXX-Y"
+
+[params.matomo]
+        enable = true
+        siteId = 2
+        url = "stats.mousqueton.io"
+        enableJs = true
+        enableImg = false
+        [[params.matomo.list]]
+        option = "disableCookies"
+        [[params.matomo.list]]
+        option = "trackPageView"
+        [[params.matomo.list]]
+        option = "enableLinkTracking"
+
 
 
 [params]
