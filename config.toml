@@ -20,7 +20,7 @@ theme = "hugo-devresume-theme"
 
     [params.contact]
         enable = true
-        location = "Ile-de-France"
+        location = "Nogent sur Marne, France"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
