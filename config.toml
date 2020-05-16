@@ -1,7 +1,7 @@
 baseURL = "https://jmousqueton.github.io/"
 languageCode = "en"
 title = "CV Julien Mousqueton"
-theme = "hugo-devresume-theme"
+theme = "resume"
 #googleAnalytics = "UA-XXXXXXX-Y"
 
 
