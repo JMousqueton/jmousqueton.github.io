@@ -186,7 +186,7 @@ theme = "hugo-devresume-theme"
         title = "Solution Architect"
         dates = "2007 - 2012"
         company = "Groupe AGRICA"
-        details = "I'm in charge of new technical projects like : virtualization project, define a new DRP, transform the IT from a legacy schema to a As a Service model." 
+        details = "I'm in charge of new technical projects like : virtualization project, define a new DRP, transform the IT from a legacy schema to an As a Service model." 
 	    [[params.experience.list.items]]
         details = "Define and build the technical infrastructure : LAN, SAN and virtualization."
         [[params.experience.list.items]]
