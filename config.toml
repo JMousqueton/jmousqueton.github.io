@@ -239,6 +239,20 @@ theme = "resume"
         enable = true
 
         [[params.information.list]]
+           title = "Professional Certifications"
+        [[params.information.list.items]]
+           details = "2020 · Sales, Presales, Veeam" 
+        [[params.information.list.items]]
+           details = "2020 · Sales, Presales, AWS" 
+        [[params.information.list.items]]
+           details = "2019 · Sales, Presales, VMware" 
+        [[params.information.list.items]]
+           details = "2018 · NPSX, Nutanix"
+         [[params.information.list.items]]
+           details = "2018 · ACE, Turbonomic"
+
+
+        [[params.information.list]]
         title = "Speaker"
 		[[params.information.list.items]]
         details = "2019 · IDC, Paris"
