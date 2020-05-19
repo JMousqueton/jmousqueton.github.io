@@ -5,7 +5,7 @@ theme = "resume"
 
 [params.matomo]
         enable = true
-        siteId = 2
+        siteId = 1
         url = "stats.mousqueton.io"
         enableJs = true
         enableImg = false
