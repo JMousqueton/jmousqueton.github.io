@@ -164,11 +164,13 @@ theme = "resume"
         company = "Computacenter"
         details = "I work within the Datacenter & Cloud business in France and I'm responsible for technical strategy and direction, new proposition development and Sales enablement. I directly support our Solutions sales team and our internal technical teams to develop compelling service offerings to support our clients strategic objectives and differentiate Computacenter in the marketplace."
         [[params.experience.list.items]]
-        details = "Develop solutions for the Datacenter and Cloud Line of Business."
+        details = "Develop the strategy for the Datacenter and Cloud Line of Business."
         [[params.experience.list.items]]
-        details = "Speaker for IT event."
+        details = "Speaker for various IT events."
         [[params.experience.list.items]]
-        details ="Partners Relationship"
+        details ="Partners Relationship."
+        [[params.experience.list.items]]
+        details ="Technical & sales enablement."
 
 
         [[params.experience.list]]
@@ -180,6 +182,10 @@ theme = "resume"
         details = "Technical lead on VMware Solution."
         [[params.experience.list.items]]
         details = "Technical lead on Cloud transformation project."
+        [[params.experience.list.items]]
+        details = "Pre-Sales Technical Consultant."
+        [[params.experience.list.items]]
+        details = "Technical enablement."
 
         [[params.experience.list]]
         title = "Head of Architects and Engineers"
@@ -187,11 +193,11 @@ theme = "resume"
         company = "Groupe AGRICA"
         details = "I'm in charged of both Architects team and Engineers team. Architects Teams is in charge of all new project (Technical or business) and the Engineers team is in charge of the deployement and the MCO."
         [[params.experience.list.items]]
-        details = "Technical lead."
+        details = "Assessing the systems architecture currently in place and working with technical staff to recommend solutions to improve it."
         [[params.experience.list.items]]
-        details = "Team management."
+        details = "Team management of 10 SEs"
         [[params.experience.list.items]]
-        details = "Technology watch."
+        details = "Continually researching current and emerging technologies and proposing changes where needed."
         [[params.experience.list.items]]
         details = "Technical correspondant for the CISO"
 
@@ -199,18 +205,19 @@ theme = "resume"
         title = "Solution Architect"
         dates = "2007 - 2012"
         company = "Groupe AGRICA"
-        details = "I'm in charge of new technical projects like : virtualization project, define a new DRP, transform the IT from a legacy schema to an As a Service model."
-	    [[params.experience.list.items]]
+        details = "I design or modify systems architecture to meet certain business needs. I test and integrate systems to ensure that specific business issues are solved. I also transform the IT from a legacy scheme into an As a Service model."
+	     [[params.experience.list.items]]
         details = "Define and build the technical infrastructure : LAN, SAN and virtualization."
         [[params.experience.list.items]]
         details = "Implement ITIL process : change and configuration."
-
+        [[params.experience.list.items]]
+        details = "Design and deploy a CDP architecture on two Datacenter."
 
         [[params.experience.list]]
         title = "Datacenter Architect"
         dates = "2002 - 2007"
         company = "Natexis Altaïr"
-        details = "I'm in charge of new technical projects like : virtualization project, secure transferts."
+        details = "I'm responsible for the design of hosting services for our custoners and assessing the business impact that certain technical choices have"
 	    [[params.experience.list.items]]
         details = "Answering RFP."
         [[params.experience.list.items]]
@@ -218,21 +225,19 @@ theme = "resume"
         [[params.experience.list.items]]
         details = "Security."
         [[params.experience.list.items]]
-        details = "Trainer."
+        details = "Training."
 
         [[params.experience.list]]
         title = "Security Architect"
         dates = "2001 - 2002"
         company = "Caisse Primaire d'Assurance Maladie"
-        details = "I'm in charge to define the Security Politic and to deploy solutions to monitor security "
-	    [[params.experience.list.items]]
-        details = "Logical Security."
+        details = "I direct the strategy and operations for the protection of the enterprise information assets and manages that program."
         [[params.experience.list.items]]
-        details = "URL Filtering."
+        details = "Deploy Internet access and URL Filtering."
         [[params.experience.list.items]]
-        details = "Backup."
+        details = "Evolve the Backup strategy."
         [[params.experience.list.items]]
-        details = "Pentest."
+        details = "Maintain the security level of the company."
 
 
     [params.information]
@@ -259,20 +264,16 @@ theme = "resume"
         [[params.information.list.items]]
         details = "2018 · Gartner Symposium, Barelona"
 		[[params.information.list.items]]
-        details = "2017 · Microsoft Iginte, Paris"
+        details = "2017 · Microsoft Ignite, Paris"
 		[[params.information.list.items]]
         details = "2010 · Cisco Live, Barcelona"
 
 		[[params.information.list]]
         title = "Community"
 		[[params.information.list.items]]
-		details = "VMUG France former leader"
+		details = "VMUG France former leader."
 		[[params.information.list.items]]
-		details = "Active blogger"
-
-        [[params.information.list]]
-        title = "Interests"
-        details = "Rugby, Photography, Travelling"
+		details = "Active blogger."
 
     [params.social]
         enable = true
