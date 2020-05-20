@@ -31,6 +31,12 @@ theme = "resume"
         tagline = "Chief Technology Officer"
         avatar = "avatar.png"
 
+    [params.available]
+      enable  = true
+
+      [params.drivinglicence]
+      enable = false
+
     [params.contact]
         enable = true
         location = "Nogent sur Marne, France"
@@ -173,7 +179,6 @@ theme = "resume"
         [[params.experience.list.items]]
         details ="Technical & sales enablement."
 
-
         [[params.experience.list]]
         title = "Solution Architect"
         dates = "2015 - 2016"
@@ -246,26 +251,23 @@ theme = "resume"
 
         [[params.information.list]]
            title = "Professional Certifications"
-        [[params.information.list.items]]
-           details = "2020 · Sales, Presales, Veeam"
-        [[params.information.list.items]]
-           details = "2020 · Sales, Presales, AWS"
-        [[params.information.list.items]]
-           details = "2019 · Sales, Presales, VMware"
-        [[params.information.list.items]]
-           details = "2018 · NPSX, Nutanix"
-         [[params.information.list.items]]
-           details = "2018 · ACE, Turbonomic"
+           [[params.information.list.items]]
+              details = "2020 · Sales, Presales, Veeam"
+           [[params.information.list.items]]
+              details = "2020 · Sales, Presales, AWS"
+           [[params.information.list.items]]
+              details = "2019 · Sales, Presales, VMware"
+           [[params.information.list.items]]
+              details = "2018 · NPSX, Nutanix"
+           [[params.information.list.items]]
+              details = "2018 · ACE, Turbonomic"
 
-		[[params.information.list]]
-        title = "Community"
-		[[params.information.list.items]]
-		details = "VMUG France former leader."
-		[[params.information.list.items]]
-		details = "Active [blogger](https://www.julienmousqueton.fr)."
-
-    [params.drivinglicence]
-    enable = false
+		    [[params.information.list]]
+           title = "Community"
+		       [[params.information.list.items]]
+		       details = "VMUG France former leader."
+		       [[params.information.list.items]]
+		       details = "Active [blogger](https://www.julienmousqueton.fr)."
 
 
     [params.social]
