@@ -194,23 +194,23 @@ theme = "resume"
         details = "Technology watch."
         [[params.experience.list.items]]
         details = "Technical correspondant for the CISO"
-		
+
         [[params.experience.list]]
         title = "Solution Architect"
         dates = "2007 - 2012"
         company = "Groupe AGRICA"
-        details = "I'm in charge of new technical projects like : virtualization project, define a new DRP, transform the IT from a legacy schema to an As a Service model." 
+        details = "I'm in charge of new technical projects like : virtualization project, define a new DRP, transform the IT from a legacy schema to an As a Service model."
 	    [[params.experience.list.items]]
         details = "Define and build the technical infrastructure : LAN, SAN and virtualization."
         [[params.experience.list.items]]
         details = "Implement ITIL process : change and configuration."
-		
-		
+
+
         [[params.experience.list]]
         title = "Datacenter Architect"
         dates = "2002 - 2007"
         company = "Natexis Altaïr"
-        details = "I'm in charge of new technical projects like : virtualization project, secure transferts." 
+        details = "I'm in charge of new technical projects like : virtualization project, secure transferts."
 	    [[params.experience.list.items]]
         details = "Answering RFP."
         [[params.experience.list.items]]
@@ -219,33 +219,33 @@ theme = "resume"
         details = "Security."
         [[params.experience.list.items]]
         details = "Trainer."
-		
+
         [[params.experience.list]]
         title = "Security Architect"
         dates = "2001 - 2002"
         company = "Caisse Primaire d'Assurance Maladie"
-        details = "I'm in charge to define the Security Politic and to deploy solutions to monitor security " 
+        details = "I'm in charge to define the Security Politic and to deploy solutions to monitor security "
 	    [[params.experience.list.items]]
-        details = "Logical Security"
+        details = "Logical Security."
         [[params.experience.list.items]]
         details = "URL Filtering."
         [[params.experience.list.items]]
         details = "Backup."
         [[params.experience.list.items]]
         details = "Pentest."
-		
-       
+
+
     [params.information]
         enable = true
 
         [[params.information.list]]
            title = "Professional Certifications"
         [[params.information.list.items]]
-           details = "2020 · Sales, Presales, Veeam" 
+           details = "2020 · Sales, Presales, Veeam"
         [[params.information.list.items]]
-           details = "2020 · Sales, Presales, AWS" 
+           details = "2020 · Sales, Presales, AWS"
         [[params.information.list.items]]
-           details = "2019 · Sales, Presales, VMware" 
+           details = "2019 · Sales, Presales, VMware"
         [[params.information.list.items]]
            details = "2018 · NPSX, Nutanix"
          [[params.information.list.items]]
@@ -262,7 +262,7 @@ theme = "resume"
         details = "2017 · Microsoft Iginte, Paris"
 		[[params.information.list.items]]
         details = "2010 · Cisco Live, Barcelona"
-        
+
 		[[params.information.list]]
         title = "Community"
 		[[params.information.list.items]]
