@@ -273,7 +273,7 @@ theme = "resume"
 		[[params.information.list.items]]
 		details = "VMUG France former leader."
 		[[params.information.list.items]]
-		details = "Active blogger."
+		details = "Active [blogger](https://www.julienmousqueton.com)."
 
     [params.social]
         enable = true
