@@ -147,7 +147,7 @@ theme = "resume"
         [[params.experience.list]]
         title = "Chief Technologist Hybrid IT"
         dates = "2018 - Present"
-        company = "Computacenter"
+        company = "[Computacenter](https://www.computacenter.com)"
         details = "As Chief Technologist for Hybrid IT, I'm a member of the Datacenter & Cloud Leadership team and I'm driven to ensure Computacenter France continued growth and relevance in the market via offering compelling propositions and services to the market. I'm specifically responsible for the development and maintenance of our our strategy ownership of our proposition stack within the Hybrid IT portfolio. I lead a team of Solution Leaders and collectively we are helping to drive our reputation in the market and assist our customers in very complex Digital Transformation programmes. I'm the recognised thought leader for Computacenter in the topic of Hybrid Cloud and as such a large amount of time is spent working with our customer community, the market and analysts in evangelising Computacenter's capabilities, our approaches and perspectives on the topic. I'm heavily involved in a number of key customer campaigns, both in establishing strategy but also specifically in driving the scope and direction for transformational change to support and underpin the business imperatives."
         [[params.experience.list.items]]
         details = "Definition of Technology offers."
@@ -161,7 +161,7 @@ theme = "resume"
         [[params.experience.list]]
         title = "Practice Leader Datacenter & Cloud"
         dates = "2016 - 2018"
-        company = "Computacenter"
+        company = "[Computacenter](https://www.computacenter.com)"
         details = "I work within the Datacenter & Cloud business in France and I'm responsible for technical strategy and direction, new proposition development and Sales enablement. I directly support our Solutions sales team and our internal technical teams to develop compelling service offerings to support our clients strategic objectives and differentiate Computacenter in the marketplace."
         [[params.experience.list.items]]
         details = "Develop the strategy for the Datacenter and Cloud Line of Business."
@@ -176,7 +176,7 @@ theme = "resume"
         [[params.experience.list]]
         title = "Solution Architect"
         dates = "2015 - 2016"
-        company = "Computacenter"
+        company = "[Computacenter](https://www.computacenter.com)"
         details = "As a Datacenter Solution Owner, I'm leading Datacenter focussed technology transformation. I'm responsible for all aspects of Computacenter's technical solution, including technical delivery, quality and alignment to defined requirements. I lead the technical team of ~15 consultants delivering a complex cross technology programme including centered on VMware portfolio."
         [[params.experience.list.items]]
         details = "Technical lead on VMware Solution."
@@ -190,7 +190,7 @@ theme = "resume"
         [[params.experience.list]]
         title = "Head of Architects and Engineers"
         dates = "2012 - 2015"
-        company = "Groupe AGRICA"
+        company = "[Groupe AGRICA](https://www.groupagrica.com)"
         details = "I'm in charged of both Architects team and Engineers team. Architects Teams is in charge of all new project (Technical or business) and the Engineers team is in charge of the deployement and the MCO."
         [[params.experience.list.items]]
         details = "Assessing the systems architecture currently in place and working with technical staff to recommend solutions to improve it."
@@ -204,7 +204,7 @@ theme = "resume"
         [[params.experience.list]]
         title = "Solution Architect"
         dates = "2007 - 2012"
-        company = "Groupe AGRICA"
+        company = "[Groupe AGRICA](https://www.groupagrica.com)"
         details = "I design or modify systems architecture to meet certain business needs. I test and integrate systems to ensure that specific business issues are solved. I also transform the IT from a legacy scheme into an As a Service model."
 	     [[params.experience.list.items]]
         details = "Define and build the technical infrastructure : LAN, SAN and virtualization."
