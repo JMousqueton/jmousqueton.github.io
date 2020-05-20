@@ -114,7 +114,7 @@ theme = "resume"
         date = "2019"
  	   [[params.awards.list]]
         name = "HPE Ambassador"
-        body = "Datacenter"
+        body = ""
         date = "2017-2020"
 
     [params.languages]
