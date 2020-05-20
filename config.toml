@@ -256,18 +256,6 @@ theme = "resume"
          [[params.information.list.items]]
            details = "2018 · ACE, Turbonomic"
 
-
-        [[params.information.list]]
-        title = "Speaker"
-		[[params.information.list.items]]
-        details = "2019 · IDC, Paris"
-        [[params.information.list.items]]
-        details = "2018 · Gartner Symposium, Barelona"
-		[[params.information.list.items]]
-        details = "2017 · Microsoft Ignite, Paris"
-		[[params.information.list.items]]
-        details = "2010 · Cisco Live, Barcelona"
-
 		[[params.information.list]]
         title = "Community"
 		[[params.information.list.items]]
@@ -290,3 +278,17 @@ theme = "resume"
         icon = "fab fa-twitter-square"
         url = "//twitter.com/JMousqueton"
         title = "@JMousqueton"
+
+        [params.speaker]
+            enable = true
+
+            [[params.speaker.list]]
+            details = "2019 · IDC, Paris"
+            [[params.speaker.list]]
+            details = "2018 · Gartner Symposium, Barelona"
+            [[params.speaker.list]]
+            details = "2017 · Microsoft Ignite, Paris"
+            [[params.speaker.list]]
+            details = "2010 · Cisco Live, Barcelona"
+            [[params.speaker.list]]
+            details = "2008 · VMworld, Las Vegas"
