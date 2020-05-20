@@ -98,7 +98,7 @@ theme = "resume"
 
         [[params.awards.list]]
         name = "VMware vExpert"
-        body = "NSX & Cloud"
+        body = "[NSX & Cloud](https://vexpert.vmware.com/directory/218)"
         date = "2007-2020"
         [[params.awards.list]]
         name = "Cisco Champion"
@@ -106,7 +106,7 @@ theme = "resume"
         date = "2010-2020"
    	  	[[params.awards.list]]
         name = "Veeam Vanguard"
-        body = ""
+        body = "[Vanguard](https://www.veeam.com/vanguard.html)"
         date = "2019-2020"
 	 	[[params.awards.list]]
         name = "Nutanix Champion"
