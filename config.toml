@@ -34,6 +34,7 @@ theme = "resume"
     [params.contact]
         enable = true
         location = "Nogent sur Marne, France"
+        BirthDate = "1976-07-09"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
@@ -262,6 +263,10 @@ theme = "resume"
 		details = "VMUG France former leader."
 		[[params.information.list.items]]
 		details = "Active [blogger](https://www.julienmousqueton.fr)."
+
+    [params.drivinglicence]
+    enable = false
+
 
     [params.social]
         enable = true
