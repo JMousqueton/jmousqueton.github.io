@@ -82,15 +82,15 @@ theme = "resume"
 
         [[params.education.list]]
         degree = "BSc in Computer Science"
-        university = "Teesside University, Middlesbrough, UK"
+        university = "[Teesside University](https://www.tees.ac.uk/), Middlesbrough, UK"
         dates = "1998 - 1999"
 		[[params.education.list]]
         degree = "DUT Informatique"
-        university = "Technology Institute Leonard de Vinci, Reims, France"
+        university = "[Technology Institut Leonard de Vinci](https://www.iut-rcc.fr/), Reims, France"
         dates = "1996 - 1998"
         [[params.education.list]]
         degree = "Bachelor's degree in Mathematics"
-        university = "Lycée Clemeancau, Reims"
+        university = "[Lycée Clemenceau](http://www.lycee-clemenceau-reims.fr/), Reims"
         dates = "1996"
 
     [params.awards]
