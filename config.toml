@@ -146,7 +146,7 @@ theme = "resume"
 
     [params.summary]
         enable = true
-        text = "As a Chief Technologist in the Solutions Development team at Computacenter France, I’m responsible for the strategy, sales enablement and technical proposition development for Hybrid IT. I'm driving an integrated strategy and engagement with our customers and partners across our service portfolio."
+        text = "As a Chief Technologist in the Solutions Development team at Computacenter France, I’m responsible for the strategy, sales enablement and technical proposition development for Hybrid IT. I'm running an integrated strategy and engagement with our customers and partners across our service portfolio."
 
     [params.experience]
         enable = true
@@ -155,7 +155,7 @@ theme = "resume"
         title = "Chief Technologist Hybrid IT"
         dates = "2018 - Present"
         company = "[Computacenter](https://www.computacenter.com)"
-        details = "As Chief Technologist for Hybrid IT, I'm a member of the Datacenter & Cloud Leadership team and I'm driven to ensure Computacenter France continued growth and relevance in the market via offering compelling propositions and services to the market. I'm specifically responsible for the development and maintenance of our our strategy ownership of our proposition stack within the Hybrid IT portfolio. I lead a team of Solution Leaders and collectively we are helping to drive our reputation in the market and assist our customers in very complex Digital Transformation programmes. I'm the recognised thought leader for Computacenter in the topic of Hybrid Cloud and as such a large amount of time is spent working with our customer community, the market and analysts in evangelising Computacenter's capabilities, our approaches and perspectives on the topic. I'm heavily involved in a number of key customer campaigns, both in establishing strategy but also specifically in driving the scope and direction for transformational change to support and underpin the business imperatives."
+        details = "As Chief Technologist for Hybrid IT, I'm a member of the Datacenter & Cloud Leadership team and I'm driven to ensure Computacenter France continued growth and relevance in the market via offering compelling propositions and services to the market. I'm specifically responsible for the development and maintenance of our strategy ownership of our proposition stack within the Hybrid IT portfolio. I lead a team of Solution Leaders and collectively we are helping to drive our reputation in the market and assist our customers in very complex Digital Transformation programmes. I'm the recognised thought leader for Computacenter in the topic of Hybrid Cloud and as such a large amount of time is dedicated to working with our customer community and market analysts in evangelising Computacenter's capabilities, our approaches and perspectives on the topic. I'm heavily involved in a number of key customer campaigns, both in establishing strategy but also specifically in driving the scope and direction for transformational change to support and underpin the business imperatives."
         [[params.experience.list.items]]
         details = "Definition of Technology offers."
         [[params.experience.list.items]]
@@ -169,7 +169,7 @@ theme = "resume"
         title = "Practice Leader Datacenter & Cloud"
         dates = "2016 - 2018"
         company = "[Computacenter](https://www.computacenter.com)"
-        details = "I work within the Datacenter & Cloud business in France and I'm responsible for technical strategy and direction, new proposition development and Sales enablement. I directly support our Solutions sales team and our internal technical teams to develop compelling service offerings to support our clients strategic objectives and differentiate Computacenter in the marketplace."
+        details = "I work within the Datacenter & Cloud business in France and I'm responsible for technical strategy and direction, new proposition development and Sales enablement. I directly support our Solutions Sales team and our internal technical teams to develop compelling service offerings to support our clients strategic objectives and differentiate Computacenter in the marketplace."
         [[params.experience.list.items]]
         details = "Develop the strategy for the Datacenter and Cloud Line of Business."
         [[params.experience.list.items]]
@@ -197,21 +197,21 @@ theme = "resume"
         title = "Head of Architects and Engineers"
         dates = "2012 - 2015"
         company = "[Groupe AGRICA](https://www.groupagrica.com)"
-        details = "I'm in charged of both Architects team and Engineers team. Architects Teams is in charge of all new project (Technical or business) and the Engineers team is in charge of the deployement and the MCO."
+        details = "I'm in charged of both Architects and Engineers teams. Architects Team is in charge of all new projects (technical and business) and the Engineers team is in charge of the deployement and the MCO."
         [[params.experience.list.items]]
-        details = "Assessing the systems architecture currently in place and working with technical staff to recommend solutions to improve it."
+        details = "Assessment of systems architecture currently in place and work with technical staff to recommend the improvment solutions."
         [[params.experience.list.items]]
         details = "Team management of 10 SEs"
         [[params.experience.list.items]]
-        details = "Continually researching current and emerging technologies and proposing changes where needed."
+        details = "Continuous research of current and emerging technologies and advice of changes where needed."
         [[params.experience.list.items]]
-        details = "Technical correspondant for the CISO"
+        details = "Technical counterpart for the CISO."
 
         [[params.experience.list]]
         title = "Solution Architect"
         dates = "2007 - 2012"
         company = "[Groupe AGRICA](https://www.groupagrica.com)"
-        details = "I design or modify systems architecture to meet certain business needs. I test and integrate systems to ensure that specific business issues are solved. I also transform the IT from a legacy scheme into an As a Service model."
+        details = "I design and modify systems architecture to meet business requirements. I'm also in charge of the transformation of IT from a legacy model into an 'As a Service' model."
 	     [[params.experience.list.items]]
         details = "Define and build the technical infrastructure : LAN, SAN and virtualization."
         [[params.experience.list.items]]
@@ -223,7 +223,7 @@ theme = "resume"
         title = "Datacenter Architect"
         dates = "2002 - 2007"
         company = "Natexis Altaïr"
-        details = "I'm responsible for the design of hosting services for our custoners and assessing the business impact that certain technical choices have"
+        details = "I'm responsible for the design of hosting services for our custoners and assessment of business impacts."
 	    [[params.experience.list.items]]
         details = "Answering RFP."
         [[params.experience.list.items]]
@@ -237,7 +237,7 @@ theme = "resume"
         title = "Security Architect"
         dates = "2001 - 2002"
         company = "Caisse Primaire d'Assurance Maladie"
-        details = "I direct the strategy and operations for the protection of the enterprise information assets and manages that program."
+        details = "I coordinate the strategy and operations for the protection of the enterprise information assets and manage that program."
         [[params.experience.list.items]]
         details = "Deploy Internet access and URL Filtering."
         [[params.experience.list.items]]
