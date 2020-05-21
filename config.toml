@@ -40,7 +40,7 @@ theme = "resume"
     [params.contact]
         enable = true
         location = "Nogent sur Marne, France"
-        BirthDate = "1976-07-09"
+        BirthDate = "1976-07-01"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
