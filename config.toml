@@ -17,11 +17,9 @@ theme = "resume"
         option = "enableLinkTracking"
 
 
-
 [params]
     author = "Julien Mousqueton"
     description = "Resume - Julien Mousqueton - Chief Technology Officer"
-
     primaryColor = "#54B689"
     textPrimaryColor = "#292929"
 

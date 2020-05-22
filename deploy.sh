@@ -87,11 +87,9 @@ while [ "$1" != "" ]; do
         -h | --help)           usage
                                 exit
                                 ;;
-        * )                     usage
-                                exit 1
     esac
     shift
 done
 usage
 exit 1
-# Test code to verify command line processing
+# exit
