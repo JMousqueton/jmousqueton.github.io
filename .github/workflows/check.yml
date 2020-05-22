@@ -1,5 +1,5 @@
 name: Lighthouse Check
-  on: [push]
+on: [push]
 jobs:
   lighthouse-check:
     runs-on: ubuntu-latest
