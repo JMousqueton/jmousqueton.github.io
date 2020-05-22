@@ -1,13 +1,40 @@
 #!/bin/bash
-
-# deploy.sh - A script to deploy your hugo generated web site
+#===============================================================================
 #
-# Developped by Julien Mousqueton @JMousqueton
+#          FILE:  deploy.sh
+#
+#         USAGE:  ./deploy.sh
+#
+#   DESCRIPTION: A script to deploy your hugo generated web site
+#
+#  REQUIREMENTS:  git and hugo must be istalled
+#        AUTHOR:  Julien Mousqueton @JMousqueton
+#       COMPANY:  ---
+#       VERSION:  1.1
+#       CREATED:  05/21/2020
+#===============================================================================
 
 ##### Constants
 
 
 ##### Functions
+
+
+check()
+{
+  git --version 2>&1 >/dev/null
+  GIT_IS_AVAILABLE=$?
+  if [ $GIT_IS_AVAILABLE -ne 0 ]; then
+      echo '[Error] Git must me installed'
+      exit 1
+  fi
+  hugo version 2>&1 >/dev/null
+  GIT_IS_AVAILABLE=$?
+  if [ $GIT_IS_AVAILABLE -ne 0 ]; then
+      echo '[Error] Git must me installed'
+      exit 1
+  fi
+}
 
 deploy()
 {
@@ -28,15 +55,27 @@ server()
      hugo server --disableFastRender  -D
 }   # end of server
 
-
 usage()
 {
-    echo "usage: deploy.sh [[-l] | [-d] | [-h]]"
+    echo " "
+    echo "usage: $0 [OPTIONS]"
+    echo " "
+    echo "Options:"
+    echo "  -h, --help      Print this help text and exit"
+    echo "  -l, --local     Launch local webserver"
+    echo "  -d, --deploy    Deploy the site via git"
+    echo " "
+    exit 1
 }
 
 
 ##### Main
-
+check
+if [  $# -gt 1 ]
+then
+  usage
+  exit 1
+fi
 while [ "$1" != "" ]; do
     case $1 in
         -d | --deploy)          deploy
@@ -53,4 +92,6 @@ while [ "$1" != "" ]; do
     esac
     shift
 done
+usage
+exit 1
 # Test code to verify command line processing

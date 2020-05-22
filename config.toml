@@ -78,11 +78,11 @@ theme = "resume"
         [[params.skills.list.items]]
         details = "Effective communication"
         [[params.skills.list.items]]
-        details = "Team player"
+        details = "Team Leader"
         [[params.skills.list.items]]
         details = "Strong problem solver"
         [[params.skills.list.items]]
-        details = "Good time management"
+        details = "/Manaement"
 
     [params.education]
         enable = true
