@@ -13,7 +13,6 @@ jobs:
           outputDirectory: /tmp/artifacts
           author: ${{ github.actor }}
           urls: 'https://jmousqueton.github.io/'
-          sha: ${{ github.sha }}
       - name: Upload artifacts
         uses: actions/upload-artifact@master
         with:
