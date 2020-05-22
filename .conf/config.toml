@@ -130,7 +130,7 @@ theme = "resume"
         level = "Native"
         [[params.languages.list]]
         name = "English"
-        level = "C1"
+        level = "Level C1"
 
     [params.interests]
         enable = true
