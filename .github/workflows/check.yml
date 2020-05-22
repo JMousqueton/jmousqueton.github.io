@@ -5,12 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - run: mkdir /audit/
       - name: Run Lighthouse
         uses: foo-software/lighthouse-check-action@master
         with:
           branch: ${{ github.ref }}
-          outputDirectory: /audit/
+          outputDirectory: /.audit/
           author: ${{ github.actor }}
           urls: 'https://jmousqueton.github.io/'
           sha: ${{ github.sha }}
@@ -18,4 +17,4 @@ jobs:
         uses: actions/upload-artifact@master
         with:
           name: Lighthouse reports
-          path: /audit/
+          path: /.audit/
