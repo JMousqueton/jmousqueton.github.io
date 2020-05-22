@@ -1,2 +1,21 @@
-- name: Lighthouse Check
-  uses: foo-software/lighthouse-check-action@v1.0.12
+  name: Lighthouse Check
+  # This workflow is triggered on pushes to the repository.
+  on: [push]
+jobs:
+  lighthouse-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - run: mkdir /audit/
+      - name: Run Lighthouse
+        uses: foo-software/lighthouse-check-action@master
+        with:
+          branch: ${{ github.ref }}
+          outputDirectory: /audit/
+          urls: 'https://jmousqueton.github.io/'
+          sha: ${{ github.sha }}
+      - name: Upload artifacts
+        uses: actions/upload-artifact@master
+        with:
+          name: Lighthouse reports
+          path: /audit/
