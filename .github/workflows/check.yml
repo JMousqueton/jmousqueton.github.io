@@ -1,5 +1,5 @@
-  name: Lighthouse Check
-  # This workflow is triggered on pushes to the repository.
+name: Lighthouse Check
+# This workflow is triggered on pushes to the repository.
   on: [push]
 jobs:
   lighthouse-check:
@@ -12,6 +12,7 @@ jobs:
         with:
           branch: ${{ github.ref }}
           outputDirectory: /audit/
+          author: ${{ github.actor }}
           urls: 'https://jmousqueton.github.io/'
           sha: ${{ github.sha }}
       - name: Upload artifacts
