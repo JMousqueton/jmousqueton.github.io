@@ -9,35 +9,12 @@
 Resume of [@jmousqueton](https://github.com/jmousqueton), created and deployed using the following:
 
 - [Hugo Extended](https://github.com/gohugoio/hugo)
-- [DevResume](https://github.com/cowboysmall-tools/hugo-devresume-theme) - The Hugo template for my resume 
+- [Resume](https://github.com/jmousqueton/resume) - The Hugo template for my resume 
 
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisite
-
-add the themes  
-
-```
-cd themes
-$ git clone https://github.com/cowboysmall-tools/hugo-devresume-theme.git
-```
-
-### Installing
-
-Configure config.toml
-
-```
-vi config.toml
-```
-
-And compile 
-
-```
-hugo
-```
 
 
 ## Running a local testing server
