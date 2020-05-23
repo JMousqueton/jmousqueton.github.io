@@ -1,6 +1,16 @@
-# CV de Julien Mousqueton
+# 🏡&nbsp; [jmousqueton.github.io](https://cv.jmousqueton.github.io/)
 
-This web site published on [jmousqueton.gtihub.io](https://jmousqueton.github.io) is my resume. 
+[![Netlify Status](https://img.shields.io/netlify/c9d7352c-8658-4ea3-a239-3be8e2f9dd16)](https://app.netlify.com/sites/jmousqueton/deploys)
+[![View website](https://img.shields.io/badge/open%20site-jmousqueton.github.io-green)](https://jmousqueton.github.io/)
+[![Hugo v0.7.0](https://img.shields.io/badge/hugo-v0.7.0-orange)](https://github.com/gohugoio/hugo)
+[![License](https://img.shields.io/github/license/jmousqueton/jmousqueton.github.io?color=red)](LICENSE.md)
+[![Twitter Follow](https://img.shields.io/twitter/follow/jmousqueton?label=Follow&style=social)](https://twitter.com/intent/user?screen_name=jmousqueton)
+
+Resume of [@jmousqueton](https://github.com/jmousqueton), created and deployed using the following:
+
+- [Hugo Extended](https://github.com/gohugoio/hugo)
+- [DevResume](https://github.com/cowboysmall-tools/hugo-devresume-theme) - The Hugo template for my resume 
+
 
 ## Getting Started
 
@@ -30,28 +40,9 @@ hugo
 ```
 
 
-## Running the tests
+## Running a local testing server
 
-You can test before generation the static site 
-
-```
-hugo server -D 
-```
-
-
-## Deployment
-
-```
-cd public 
-git add .
-git commit -m "update" 
-git push
-```
-
-## Built With
-
-* [Hugo](https://gohugo.io/) - The web framework used
-* [DevResume](https://github.com/cowboysmall-tools/hugo-devresume-theme) - The Hugo template for my resume 
+Run `hugo server -D` then open [http://localhost:1313/](http://localhost:1313/). Pages will live-refresh when source files are changed.
 
 
 ## Authors
@@ -60,8 +51,12 @@ git push
 
 See also the list of [contributors](https://github.com/JMousqueton/jmousqueton.github.io/contributors) who participated in this project.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+## Licenses
+
+![Creative Commons Attribution 4.0 International License](https://raw.githubusercontent.com/creativecommons/cc-cert-core/master/images/cc-by-88x31.png "CC BY")
 
 ## Acknowledgments
+
+
+
