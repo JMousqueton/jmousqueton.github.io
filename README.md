@@ -54,7 +54,7 @@ See also the list of [contributors](https://github.com/JMousqueton/jmousqueton.g
 
 ## Licenses
 
-![Creative Commons Attribution 4.0 International License](https://raw.githubusercontent.com/creativecommons/cc-cert-core/master/images/cc-by-88x31.png "CC BY")
+MIT
 
 ## Acknowledgments
 
