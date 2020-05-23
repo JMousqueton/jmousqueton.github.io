@@ -80,7 +80,7 @@ theme = "resume"
         [[params.skills.list.items]]
         details = "Strong problem solver"
         [[params.skills.list.items]]
-        details = "/Manaement"
+        details = "Management"
 
     [params.education]
         enable = true
