@@ -63,6 +63,11 @@ deploy()
 
 server()
 {
+     { echo "http://127.0.0.1:1313" | pbcopy > /dev/null; } 2>&1
+     PBCOPY_IS_AVAILABLE=$?
+     if [ $PBCOPY_IS_AVAILABLE -eq 0 ]; then
+       echo -e "${GREEN}[HINT]${NOCOLOR} We copy the URL in the clipboard for you !!!"
+    fi
      hugo server --disableFastRender  -D
 }   # end of server
 
