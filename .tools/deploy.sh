@@ -3,11 +3,11 @@
 #
 #          FILE:  deploy.sh
 #
-#         USAGE:  ./deploy.sh [deploy|local] [-c <comment>]
+#         USAGE:  ./deploy.sh [deploy|local] [-c <comment>|-h]
 #
 #   DESCRIPTION: A script to deploy your hugo generated web site
 #
-#  REQUIREMENTS:  git and hugo must be istalled
+#  REQUIREMENTS:  git and hugo must be installed
 #        AUTHOR:  Julien Mousqueton @JMousqueton
 #       COMPANY:  ---
 #       VERSION:  1.2
@@ -80,7 +80,7 @@ usage()
     echo "  $0 deploy -c \"update script\""
     echo " "
     exit 1
-}
+}   # end of usage
 
 
 ##### Main
@@ -133,6 +133,5 @@ case "$subcommand" in
       ;;
 esac
 
-usage
-exit 1
+exit 0
 # exit
