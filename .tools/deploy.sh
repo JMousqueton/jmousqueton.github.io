@@ -42,6 +42,7 @@ check()
 
 deploy()
 {
+  home=$(pwdc)
   hugo -enableGitInfo --minify -v
   cp config.toml $CONF_DIR
   cp deploy.sh $SCRIPT_DIR
@@ -52,7 +53,7 @@ deploy()
   fi
   git commit -m "$comment"
   git push
-  cd ..
+  cd "$home" || exit 1
 
 }   # end of deploy
 
@@ -129,27 +130,6 @@ case "$subcommand" in
       ;;
 esac
 
-usage
-exit 1
-if [  $# -gt 1 ]
-then
-  usage
-  exit 1
-fi
-while [ "$1" != "" ]; do
-    case $1 in
-        -d | --deploy)          deploy
-                                exit
-                                ;;
-        -l | --local)           server
-                                exit
-                                ;;
-        -h | --help)           usage
-                                exit
-                                ;;
-    esac
-    shift
-done
 usage
 exit 1
 # exit
