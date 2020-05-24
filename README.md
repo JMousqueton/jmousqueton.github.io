@@ -1,7 +1,7 @@
 # 🏡&nbsp; [jmousqueton.github.io](https://cv.jmousqueton.github.io/)
 
 [![Netlify Status](https://img.shields.io/netlify/c9d7352c-8658-4ea3-a239-3be8e2f9dd16)](https://app.netlify.com/sites/jmousqueton/deploys)
-[![View website](https://img.shields.io/badge/open%20site-jmousqueton.github.io-green)](https://jmousqueton.github.io/)
+[![View websi[![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/JMousqueton/jmousqueton.github.io)te](https://img.shields.io/badge/open%20site-jmousqueton.github.io-green)](https://jmousqueton.github.io/)
 [![Hugo v0.7.0](https://img.shields.io/badge/hugo-v0.7.0-orange)](https://github.com/gohugoio/hugo)
 [![License](https://img.shields.io/github/license/jmousqueton/jmousqueton.github.io?color=red)](LICENSE.md)
 [![Twitter Follow](https://img.shields.io/twitter/follow/jmousqueton?label=Follow&style=social)](https://twitter.com/intent/user?screen_name=jmousqueton)
@@ -48,5 +48,3 @@ See also the list of [contributors](https://github.com/JMousqueton/jmousqueton.g
 MIT 2.0
 
 ## :v: Acknowledgments
-
-
