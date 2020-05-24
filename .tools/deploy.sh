@@ -3,7 +3,7 @@
 #
 #          FILE:  deploy.sh
 #
-#         USAGE:  ./deploy.sh
+#         USAGE:  ./deploy.sh [deploy|local] [-c <comment>]
 #
 #   DESCRIPTION: A script to deploy your hugo generated web site
 #
@@ -65,7 +65,7 @@ server()
 usage()
 {
     echo " "
-    echo "usage: $0 -a [ACTION] [OPTIONS]"
+    echo "usage: $0 [deploy|local] [-c <comment>|-h]"
     echo " "
     echo "Action:"
     echo "  deploy          Generate and deploy the site"
