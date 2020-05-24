@@ -1,6 +1,6 @@
 # 🏡&nbsp; [jmousqueton.github.io](https://cv.jmousqueton.github.io/)
 
-[![Netlify Status](https://img.shields.io/netlify/c9d7352c-8658-4ea3-a239-3be8e2f9dd16)](https://app.netlify.com/sites/jmousqueton/deploys)
+[![Netlify Status](https://img.shields.io/netlify/c9d7352c-8658-4ea3-a239-3be8e2f9dd16)](https://app.netlify.com/sites/dazzling-turing-e7944b/deploys)
 [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/JMousqueton/jmousqueton.github.io)
 [![View website](https://img.shields.io/badge/open%20site-jmousqueton.github.io-green)](https://jmousqueton.github.io/)
 [![Hugo v0.7.0](https://img.shields.io/badge/hugo-v0.7.0-orange)](https://github.com/gohugoio/hugo)
