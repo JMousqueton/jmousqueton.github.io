@@ -1,7 +1,7 @@
-name: Percy
+name: CI
 on: [push, pull_request]
 jobs:
-  build:
+  default:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -9,8 +9,6 @@ jobs:
       - name: Install
         run: yarn
       - name: Percy Test
-        uses: percy/exec-action@v0.1.1
-        with:
-          command: "cypress run"
+        uses: percy/storybook-action@v0.1.1
         env:
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
