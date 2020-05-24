@@ -50,7 +50,7 @@ deploy()
 {
   home=$(pwdc)
   if [ $purge ]; then
-    rm -f $home/assets/css/*.css
+    { rm -f $home/assets/css/*.css > /dev/null; } 2>&1
   fi
   hugo -enableGitInfo --minify -v
   cp config.toml $CONF_DIR
