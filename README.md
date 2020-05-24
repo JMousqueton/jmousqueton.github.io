@@ -12,11 +12,11 @@ Resume of [@jmousqueton](https://github.com/jmousqueton), created and deployed u
 - [Resume](https://github.com/jmousqueton/resume) - The Hugo template for my resume
 
 
-## 👍🏻Getting Started
+## 👍🏻 Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-## :cd: Installation
+## :cd:  Installation
 
 Check my [blog post](https://www.julienmousqueton.fr/comment-creer-son-cv-sur-github/) (in French :fr:)
 
@@ -25,26 +25,26 @@ Check my [blog post](https://www.julienmousqueton.fr/comment-creer-son-cv-sur-gi
 - add my theme : `cd jmousqueton.github.io/themes ;; git clone https://github.com/jmousqueton/resunme`
 - Copy and modify the file [config.toml](.conf/config.toml)
 
-## Running a local testing server
+## :rocket:  Running a local testing server
 
 Run `hugo server -D` then open [http://localhost:1313/](http://localhost:1313/). Pages will live-refresh when source files are changed.
 Or use my [deploy.sh](.tools/deploy.sh) script ➡️ `deploy.sh local`
 
-## Generated and deploy my resume
+## 🔥 Generated and deploy my resume
 
 I've create a script to help deployement : [deploy.sh](.tools/deploy.sh)  ➡️ `deploy.sh deploy -c "My first Commit"`
 
 check the usage ➡️ `deploy -h`
 
-## Authors
+## 🙎🏻‍♂️ Authors
 
 * **Julien Mousqueton** - [Blog](https://www.julienmousqueton.fr)
 
 See also the list of [contributors](https://github.com/JMousqueton/jmousqueton.github.io/contributors) who participated in this project.
 
 
-## Licenses
+## 📜 Licenses
 
 MIT
 
-## Acknowledgments
+## :v: Acknowledgments
