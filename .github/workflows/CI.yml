@@ -18,3 +18,20 @@ jobs:
       uses: percy/snapshot-action@v0.1.0
       env:
         PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
+  lighthouse-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - run: mkdir /tmp/artifacts
+      - name: Run Lighthouse
+        uses: foo-software/lighthouse-check-action@master
+        with:
+          branch: ${{ github.ref }}
+          outputDirectory: /tmp/artifacts
+          author: ${{ github.actor }}
+          urls: 'https://jmousqueton.github.io/'
+      - name: Upload artifacts
+        uses: actions/upload-artifact@master
+        with:
+          name: Lighthouse reports
+          path: /tmp/artifacts
