@@ -133,5 +133,6 @@ case "$subcommand" in
       ;;
 esac
 
+usage
 exit 0
 # exit
