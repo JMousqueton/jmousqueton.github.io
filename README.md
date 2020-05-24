@@ -43,8 +43,8 @@ check the usage ➡️ `deploy -h`
 See also the list of [contributors](https://github.com/JMousqueton/jmousqueton.github.io/contributors) who participated in this project.
 
 
-## 📜 Licenses
+## 📜 License
 
-MIT
+MIT 2.0
 
 ## :v: Acknowledgments
