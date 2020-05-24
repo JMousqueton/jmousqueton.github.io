@@ -18,7 +18,7 @@
 
 PUBLIC_DIR=./public
 CONF_DIR=./public/.conf
-SCRIPT_DIR=./public/.tools
+#!# SCRIPT_DIR=./public/.tools
 
 ##### Functions
 
@@ -38,14 +38,14 @@ check()
       echo '[Error] Hugo must me installed'
       exit 1
   fi
-}
+}  # end of check
 
 deploy()
 {
   home=$(pwdc)
   hugo -enableGitInfo --minify -v
   cp config.toml $CONF_DIR
-  cp deploy.sh $SCRIPT_DIR
+#!#   cp deploy.sh $SCRIPT_DIR
   cd $PUBLIC_DIR  || exit 1
   git add .
   if [ -z "$comment" ]; then
