@@ -19,6 +19,9 @@
 PUBLIC_DIR=./public
 CONF_DIR=./public/.conf
 #!# SCRIPT_DIR=./public/.tools
+RED="\033[1;31m"
+GREEN="\033[1;32m"
+NOCOLOR="\033[0m"
 
 ##### Functions
 
@@ -28,14 +31,14 @@ check()
   { git --version > /dev/null; } 2>&1
   GIT_IS_AVAILABLE=$?
   if [ $GIT_IS_AVAILABLE -ne 0 ]; then
-      echo '[Error] Git must me installed'
+      echo -e "${RED}[Error]${NOCOLOR} Git must me installed"
       exit 1
   fi
 
   { hugo version > /dev/null; } 2>&1
   HUGO_IS_AVAILABLE=$?
   if [ $HUGO_IS_AVAILABLE -ne 0 ]; then
-      echo '[Error] Hugo must me installed'
+      echo -e "${RED}[Error]${NOCOLOR} Hugo must me installed"
       exit 1
   fi
 }  # end of check
