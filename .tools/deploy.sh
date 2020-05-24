@@ -49,6 +49,9 @@ check()
 deploy()
 {
   home=$(pwdc)
+  if [ $purge ]; then
+    rm -f $home/assets/css/*.css
+  fi
   hugo -enableGitInfo --minify -v
   cp config.toml $CONF_DIR
 #!#   cp deploy.sh $SCRIPT_DIR
@@ -76,7 +79,7 @@ server()
 usage()
 {
     echo " "
-    echo "usage: $0 [deploy|local] [-c <comment>|-h]"
+    echo "usage: $0 [deploy|local] [-c <comment>|-p] [-h]"
     echo " "
     echo "Action:"
     echo "  deploy          Generate and deploy the site"
@@ -85,6 +88,7 @@ usage()
     echo "Options:"
     echo "  -h              Print this help text and exit"
     echo "  -c              Add specific comment on commit"
+    echo "  -p              Purge previous CSS files"
     echo " "
     echo "Example :"
     echo "  $0 deploy -c \"update script\""
@@ -114,10 +118,13 @@ case "$subcommand" in
   # Parse options to the deploy sub command
   deploy)
     # Process package options
-    while getopts ":c:" opt; do
+    while getopts ":c:p" opt; do
       case ${opt} in
         c )
           comment=$OPTARG
+          ;;
+        p )
+          purge=true
           ;;
         \? )
           echo "Invalid Option: -$OPTARG" 1>&2
