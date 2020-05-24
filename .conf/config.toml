@@ -199,7 +199,7 @@ theme = "resume"
         [[params.experience.list.items]]
         details = "Assessment of systems architecture currently in place and work with technical staff to recommend the improvment solutions."
         [[params.experience.list.items]]
-        details = "Team management of 10 SEs"
+        details = "Team management (2 Architects & 10 Engineers)"
         [[params.experience.list.items]]
         details = "Continuous research of current and emerging technologies and advice of changes where needed."
         [[params.experience.list.items]]
