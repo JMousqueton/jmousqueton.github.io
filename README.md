@@ -12,13 +12,13 @@ Resume of [@jmousqueton](https://github.com/jmousqueton), created and deployed u
 - [Resume](https://github.com/jmousqueton/resume) - The Hugo template for my resume
 
 
-## Getting Started
+## 👍🏻Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-##  Installation
+## :cd: Installation
 
-Check my [blog post](https://www.julienmousqueton.fr/comment-creer-son-cv-sur-github/) (in French)
+Check my [blog post](https://www.julienmousqueton.fr/comment-creer-son-cv-sur-github/) (in French :fr:)
 
 #### In summary
 - create the Hugo project : `hugo init jmousqueton.github.io`
