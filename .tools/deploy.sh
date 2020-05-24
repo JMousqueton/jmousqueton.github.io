@@ -33,9 +33,9 @@ check()
   fi
 
   { hugo version > /dev/null; } 2>&1
-  GIT_IS_AVAILABLE=$?
-  if [ $GIT_IS_AVAILABLE -ne 0 ]; then
-      echo '[Error] Git must me installed'
+  HUGO_IS_AVAILABLE=$?
+  if [ $HUGO_IS_AVAILABLE -ne 0 ]; then
+      echo '[Error] Hugo must me installed'
       exit 1
   fi
 }
@@ -93,6 +93,7 @@ while getopts ":h" opt; do
       ;;
    \? )
      echo "Invalid Option: -$OPTARG" 1>&2
+     usage
      exit 1
      ;;
   esac
@@ -111,10 +112,12 @@ case "$subcommand" in
           ;;
         \? )
           echo "Invalid Option: -$OPTARG" 1>&2
+          usage
           exit 1
           ;;
         : )
           echo "Invalid Option: -$OPTARG requires an argument" 1>&2
+          usage
           exit 1
           ;;
       esac
