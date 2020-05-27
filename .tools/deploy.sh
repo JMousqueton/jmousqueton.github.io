@@ -48,7 +48,7 @@ check()
 
 deploy()
 {
-  home=$(pwdc)
+  home=$(pwd)
   if [ $purge ]; then
     { rm -f $home/assets/css/*.css > /dev/null; } 2>&1
   fi
