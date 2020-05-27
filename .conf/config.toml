@@ -1,5 +1,7 @@
 baseURL = "https://jmousqueton.github.io/"
 languageCode = "en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 title = "Resume Julien Mousqueton"
 theme = "resume"
 
