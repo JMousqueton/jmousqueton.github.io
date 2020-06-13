@@ -288,6 +288,8 @@ theme = "resume"
             enable = true
 
             [[params.speaker.list]]
+            details = "2020 · [Podcast](http://www.podcast-usp.fr/) Stockage"
+            [[params.speaker.list]]
             details = "2019 · IDC, Paris"
             [[params.speaker.list]]
             details = "2018 · Gartner Symposium, Barelona"
