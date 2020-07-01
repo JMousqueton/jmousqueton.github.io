@@ -195,7 +195,7 @@ theme = "resume"
         title = "Head of Architects and Engineers"
         dates = "2012 - 2015"
         company = "[Groupe AGRICA](https://www.groupagrica.com)"
-        details = "I'm in charged of both Architects and Engineers teams. Architects Team is in charge of all new projects (technical and business) and the Engineers team is in charge of the deployement and the MCO."
+        details = "I'm in charged of both Architects and Engineers teams. Architects Team is in charge of all new projects (technical and business) and the Engineers team is in charge of the deployement and the MRO."
         [[params.experience.list.items]]
         details = "Assessment of systems architecture currently in place and work with technical staff to recommend the improvment solutions."
         [[params.experience.list.items]]
