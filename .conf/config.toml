@@ -43,7 +43,7 @@ theme = "resume"
         [[params.contact.list]]
         icon = "fas fa-phone-square"
         url = "tel:+33633556428"
-        text = "06.33.55.64.28"
+        text = "06 33 55 64 28"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:julien@mousqueton.me"
