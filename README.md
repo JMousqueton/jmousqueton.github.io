@@ -12,7 +12,6 @@ Resume of [@jmousqueton](https://github.com/jmousqueton), created and deployed u
 - [Hugo Extended](https://github.com/gohugoio/hugo)
 - [Resume](https://github.com/jmousqueton/resume) - The Hugo template for my resume
 
-
 ## 👍🏻 Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -21,7 +20,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Check my [blog post](https://www.julienmousqueton.fr/comment-creer-son-cv-sur-github/) (in French :fr:)
 
-#### In summary
+### In summary
 - Create the Hugo project : `hugo init jmousqueton.github.io`
 - Add my theme : `cd jmousqueton.github.io/themes ; git clone https://github.com/jmousqueton/resunme`
 - Copy and modify the file [config.toml](.conf/config.toml)
@@ -39,10 +38,9 @@ check the usage ➡️ `deploy -h`
 
 ## 🙎🏻‍♂️ Authors
 
-* **Julien Mousqueton** - [Blog](https://www.julienmousqueton.fr)
+**Julien Mousqueton** - [Blog](https://www.julienmousqueton.fr)
 
 See also the list of [contributors](https://github.com/JMousqueton/jmousqueton.github.io/contributors) who participated in this project.
-
 
 ## 📜 License
 
