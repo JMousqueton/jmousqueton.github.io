@@ -162,6 +162,8 @@ theme = "resume"
         details = "Technical Enablement."
         [[params.experience.list.items]]
         details = "Strategy and Design of Responses."
+        [[params.experience.list.items]]
+        details = "Evangelisation."
 
         [[params.experience.list]]
         title = "Practice Leader Datacenter & Cloud"
