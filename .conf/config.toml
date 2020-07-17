@@ -33,7 +33,7 @@ theme = "resume"
       enable  = true
 
       [params.drivinglicence]
-      enable = true
+      enable = false
 
     [params.contact]
         enable = true
