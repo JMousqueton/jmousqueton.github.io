@@ -20,7 +20,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 Check my [blog post](https://www.julienmousqueton.fr/comment-creer-son-cv-sur-github/) (in French :fr:)
 
-### In summary
 - Create the Hugo project : `hugo init jmousqueton.github.io`
 - Add my theme : `cd jmousqueton.github.io/themes ; git clone https://github.com/jmousqueton/resunme`
 - Copy and modify the file [config.toml](.conf/config.toml)
