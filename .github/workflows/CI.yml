@@ -7,17 +7,6 @@ on:
   pull_request:
 
 jobs:
-  percy:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 1
-        lfs: false
-    - name: Percy snapshots
-      uses: percy/snapshot-action@v0.1.0
-      env:
-        PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
   lighthouse-check:
     runs-on: ubuntu-latest
     steps:
