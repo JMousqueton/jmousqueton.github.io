@@ -120,7 +120,7 @@ theme = "resume"
  	   [[params.awards.list]]
         name = "HPE Ambassador"
         body = ""
-        date = "2017-2020"
+        date = "2017-2021"
 
     [params.languages]
         enable = true
@@ -144,7 +144,7 @@ theme = "resume"
 
     [params.summary]
         enable = true
-        text = "As a Chief Technologist in the Solutions Development team at Computacenter France, I’m responsible for the strategy, sales enablement and technical proposition development for Hybrid IT. I'm running an integrated strategy and engagement with our customers and partners across our service portfolio."
+        text = "As a Chief Technology Officer at Computacenter, I’m responsible for the strategy, sales enablement and technical proposition development for Hybrid IT. I'm running an integrated strategy and engagement with our customers and partners across our service portfolio."
 
     [params.experience]
         enable = true
@@ -265,7 +265,7 @@ theme = "resume"
 		    [[params.information.list]]
            title = "Community"
                [[params.information.list.items]]
-		       details = "Veeam User Group France co-leader."
+		       details = "[Veeam User Group](http://community.veeam.com) France former co-leader."
 		       [[params.information.list.items]]
 		       details = "VMUG France former leader."
 		       [[params.information.list.items]]
