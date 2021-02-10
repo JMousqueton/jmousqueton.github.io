@@ -264,6 +264,8 @@ theme = "resume"
 
 		    [[params.information.list]]
            title = "Community"
+               [[params.information.list.items]]
+		       details = "Veeam User Group France co-leader."
 		       [[params.information.list.items]]
 		       details = "VMUG France former leader."
 		       [[params.information.list.items]]
